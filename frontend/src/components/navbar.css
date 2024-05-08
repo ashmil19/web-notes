@@ -1,0 +1,10 @@
+.nav-container{
+    height: 60px;
+    background-color: rgb(12, 22, 46);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 20px;
+}

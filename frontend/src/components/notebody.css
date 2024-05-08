@@ -1,0 +1,49 @@
+.note-container{
+    min-height: 92vh;
+    background-color: rgb(88, 174, 227);
+    
+}
+
+.upper-body{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-body input{
+    width: 450px;
+    height: 60px;
+    outline: none;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+    padding: 0 15px;
+}
+
+.main-body{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.task{
+    background-color: white;
+    width: 230px;
+    min-height: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.btn-del{
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+    background-color: gray;
+    padding: 2px;
+}
